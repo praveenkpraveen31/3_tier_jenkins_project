@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_USERNAME = "siddocker467"
+        DOCKER_USERNAME = "praveeen267"
         IMAGE_TAG = "${env.BUILD_NUMBER}"
     }
     
